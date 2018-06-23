@@ -30,18 +30,13 @@
                 <c:forEach var="user" items="${usersList}">
                     
                 <tr>
-                    <rd>${user.id}</rd>
+                    <td>${user.id}</td>
                     <td>${user.firstName}</td>
-                    <td>${user.lasttName}</td>
+                    <td>${user.lastName}</td>
                     <td>${user.email}</td>
                 </tr>
                 </c:forEach>
                     
-                <tr>
-                    <td>2</td>
-                    <td>Kurs Pythona</td>
-                    <td>2500</td>
-                </tr>
                 </tbody>
             </table>
         </div>
