@@ -10,7 +10,7 @@
     <packaging>war</packaging>
 
     <properties>
-        <tomcat.path>/Users/wojciechmusial/Programowanie/tomcat/apache-tomcat-8.0.44</tomcat.path>
+        <tomcat.path>c:\\tomcat</tomcat.path>
     </properties>
 
     <dependencies>
