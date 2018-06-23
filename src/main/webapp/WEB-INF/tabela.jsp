@@ -32,7 +32,7 @@
                 <tr>
                     <rd>${user.id}</rd>
                     <td>${user.firstName}</td>
-                    <td>${user.lasttName}</td>
+                    <td>${user.lastName}</td>
                     <td>${user.email}</td>
                 </tr>
                 </c:forEach>
