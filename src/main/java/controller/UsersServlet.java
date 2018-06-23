@@ -28,7 +28,7 @@ public class UsersServlet extends HttpServlet {
         try {
             List<User> users = userDao.findAll();
             req.setAttribute("usersList", users);       //nie wyrenderowane  rzeczy mogly by sie pokazac jakby tego ie bylo.
-                                                        //
+                                                        //automatem pobiera z bazydanych i tworzy statycznego HTMLa
 
         RequestDispatcher ra
             = req.getRequestDispatcher("/WEB-INF/users.jsp");  //przekieruj urzytkownika z takiego zasobu a tomcat ma przekierowac
